@@ -11,9 +11,6 @@ public class Square {
         instance.printSquare();
     }
 
-    double getSquare() {
-        return 3.14 * radius * radius;
-    }
 
     void printSquare() {
         double square = 3.14 * radius * radius;

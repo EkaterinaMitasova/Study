@@ -17,7 +17,7 @@ public class SquarePerimeter {
         int perimeter2 = (height2 + width2) * 2;
 
         SquarePerimeter instance = new SquarePerimeter();
-        if (instance.squareIsGreaterThanPerimeter(square, perimeter)) ;
+
         System.out.println(instance.squareIsGreaterThanPerimeter(square, perimeter));
         System.out.println(instance.squareIsGreaterThanPerimeter(square1, perimeter1));
         System.out.println(instance.squareIsGreaterThanPerimeter(square2, perimeter2));
