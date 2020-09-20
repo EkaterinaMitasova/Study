@@ -19,7 +19,4 @@ public class OddNotOdd {
         return A % 2 != 0;
     }
 
-    boolean notOdd1(int A1) {
-        return A1 % 2 != 0;
-    }
 }
