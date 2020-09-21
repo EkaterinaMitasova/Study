@@ -7,13 +7,13 @@ package main.lesson1.task4;
 public class Length {
     public static void main(String[] args) {
         int n = 115; // сантиметры
-        int Meters = n / 100;
+        int meters = n / 100;
         int n1 = 800;
-        int Meters1 = n1 / 100;
+        int meters1 = n1 / 100;
         int n2 = 278;
-        int Meters2 = n2 / 100;
-        System.out.println(Meters);
-        System.out.println(Meters1);
-        System.out.println(Meters2);
+        int meters2 = n2 / 100;
+        System.out.println(meters);
+        System.out.println(meters1);
+        System.out.println(meters2);
     }
 }
