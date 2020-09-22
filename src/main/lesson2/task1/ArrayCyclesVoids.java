@@ -1,6 +1,7 @@
 package main.lesson2.task1;
 
-//Эту задачу нужно доделать
+//TODO Эту задачу нужно доделать
+
 
 //	Объявить массив типа String, состоящий из следующих элементов: “Пятница”, ”это”, ”лучший”, ”день”, ”недели”.
 //            Создать 3 метода, каждый из которых в качестве параметра принимает массив строк.
@@ -18,6 +19,7 @@ public class ArrayCyclesVoids {
         array[3] = "день";
         array[4] = "недели";
         new ArrayCyclesVoids().withCycleFor(array);
+        new ArrayCyclesVoids().withCycleForEach(array);
     }
 
     void withCycleFor(String[] array) {
@@ -25,6 +27,21 @@ public class ArrayCyclesVoids {
             String s = array[i] + ' ';
             System.out.print(s);
         }
-        System.out.print(array[array.length - 1] + ".");
+        System.out.println(array[array.length - 1] + ".");
+    }
+
+    void withCycleForEach(String[] array) {
+        int i = 0;
+        for (String element : array) {
+
+            if (i == array.length - 1) {
+                System.out.println(element + '.');
+            } else {
+                System.out.print(element + ' ');
+            }
+            i++;
+        }
     }
 }
+
+
